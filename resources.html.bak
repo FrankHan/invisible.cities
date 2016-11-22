@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>
+
+	
+<html>
+	  
+
+  <body>
+    <div class="chrome">
+      <div class="viewer">
+      </div>
+      <div class="controls">
+        <div class="pagewidth">
+          <span class="pagenumbers" data-ts-template="position">{{pagenumber}} / {{pagecount}}</span>
+          <button class="prev">Prev</button>
+          <button class="next">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="container" data-sizes="title single"></div>
+      <div class="column"></div>
+    </div>
+
+    <div class="grid cols-2">
+      <div class="container cols-2" data-sizes="title double"></div>
+      <div class="column"></div>
+      <div class="container col-2" data-sizes="single"></div>
+      <div class="column col-2"></div>
+    </div>
+
+
+    <div class="loading">
+      Loading
+    </div>
+
+    <div class="error">
+      Error
+    </div>
+  </body>
+</html>
